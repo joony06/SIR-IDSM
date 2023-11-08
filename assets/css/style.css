@@ -1,0 +1,103 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+}
+
+#button {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.button {
+    width: 10vw;
+    height: 4vh;
+    margin-top: 4.5vh;
+    margin-left: 2vw;
+}
+
+#Map1 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 25vw;
+    width: 100vw;
+    justify-content: center;
+
+}
+
+#Map2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 40vw;
+    width: 100vw;
+}
+
+.section1 {
+    background-color: #ffdddd;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 5vw;
+}
+
+.section2 {
+    background-color: #ffeedd;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 5vw;
+}
+
+.section3 {
+    background-color: #ffffdd;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 5vw;
+}
+
+.section4 {
+    background-color: #ddffdd;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 5vw;
+
+}
+
+.section5 {
+    background-color: #ddffff;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 70vw;
+}
+
+.section6 {
+    background-color: #ddddff;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 70vw;
+}
+
+@media (max-width: 877px) and (min-width: 730px) {
+    #button {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 730px) and (min-width: 574px) {
+    #button {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 574px) {
+    #button {
+        font-size: 6px;
+    }
+}
